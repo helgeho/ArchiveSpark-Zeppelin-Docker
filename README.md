@@ -12,5 +12,5 @@ Please just clone these files into the corresponding paths (e.g., `/.../mynotes`
 
 Now you can run your docker container with the following command and access Zeppelin under [`http://localhost:8080`](http://localhost:8080):
 ```
-docker run --rm -dt -p 8080:8080 -v /.../mydeps:/deps -v /.../mynotes:/notes -v /.../mydata:/data helgeho/archivespark-zeppelin
+docker run --rm -t -p 8080:8080 -v /.../mydeps:/deps -v /.../mynotes:/notes -v /.../mydata:/data helgeho/archivespark-zeppelin
 ```
